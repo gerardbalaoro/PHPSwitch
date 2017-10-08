@@ -1,0 +1,4 @@
+C:\Users\Gerard\AppData\Local\Temporary Projects\PHPSwitch\obj\x86\Debug\PHPSwitch.Form1.resources
+C:\Users\Gerard\AppData\Local\Temporary Projects\PHPSwitch\obj\x86\Debug\PHPSwitch.Resources.resources
+C:\Users\Gerard\AppData\Local\Temporary Projects\PHPSwitch\obj\x86\Debug\PHPSwitch.vbproj.GenerateResource.Cache
+C:\Users\Gerard\documents\visual studio 2010\Projects\PHPSwitch\PHPSwitch\bin\Debug\PHPSwitch.exe.config
