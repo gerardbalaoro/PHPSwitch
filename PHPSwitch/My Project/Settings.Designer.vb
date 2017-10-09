@@ -54,22 +54,40 @@ Namespace My
             End Get
         End Property
         
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public ReadOnly Property xammp_path() As String
+        Public Property xammp_path() As String
             Get
                 Return CType(Me("xammp_path"),String)
             End Get
+            Set
+                Me("xammp_path") = value
+            End Set
         End Property
         
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("")>  _
-        Public ReadOnly Property php_path() As String
+        Public Property php_path() As String
             Get
                 Return CType(Me("php_path"),String)
             End Get
+            Set
+                Me("php_path") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property apache_service() As String
+            Get
+                Return CType(Me("apache_service"),String)
+            End Get
+            Set
+                Me("apache_service") = value
+            End Set
         End Property
     End Class
 End Namespace
